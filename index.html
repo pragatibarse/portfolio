@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- font Awesome -->
+        <script src="https://kit.fontawesome.com/90c73f00ad.js" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap cdn -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+       <!-- stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <body>
+ <!--============= navbar start============== -->
+<section id="Home">
+    <div class="container-fluid conatiner_banner">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand" href="#Home"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#Home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#Education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#Portfolio">My Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#Contact">Contact</a>
+                </li>
+              </ul>             
+            </div>
+          </nav>  
+    </div>
+</section>
+<!-- -------navbar end-------- -->
+
+<!--=========== profile start================= -->
+<section id="home">
+    <div class="container">
+        <div class="row bg-white profile_banner p-3 mb-5">
+            <div class="col-md-6 bg-white">
+                <div class="profile_photo">
+                    <img src="images/profile1.jpg">
+                </div>
+            </div>
+            <div class="col-md-6 bg-white">
+                <div class="personal_text mt-5 ml-5"> 
+                    <h6>Hello Everybody, i am</h6>
+                    <h3>Pragati Barse</h3>
+                    <h4>Computer Science student</h4>
+                    <p>I'm a passionate about Front End development,good at front end frameworks and problem solving,enthusiastic and quick learner</p>
+                    <ul class="list basic_info">
+                        <li><a href="#"><i class="fa-solid fa-calendar-days"></i> 08th june, 1997</a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i> 8856963877</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i> pragatibarse08@gmail.com</a></li>
+                        <li><a href="#"><i class="fa-solid fa-address-book"></i>Ahmednagar,Maharashtra,India</a></li>
+                    </ul>
+                    <ul class="list personal_social">
+                        <li><a href="https://www.linkedin.com/in/pragati-barse-046b05244"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://instagram.com/pragatibarse?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/PragatiBarse"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                 </div> 
+            </div>
+
+            </div>
+            <!-- profile_banner end -->
+    </div>
+</section>
+
+<!-- ===================about start================ -->
+
+<section id="About">
+  <div class="container mt-5">
+    <div class="row about">
+      <div class="col-md-6"id="about_me">
+        <h3 class="text-center">About Myself</h3>
+        <p class="ml-5 mt-4">My name is pragati barse.I have completed my post graduation in Msc Computer Science.I have six month of experience in Front end Technology.I am proficient in HTML,CSS, Javascript SQL as well as morden library.I like to challenge myself to push boundaries and discover inovative solutions.</p>
+       <a href="images/resume.pdf"><button class="text-center">View Resume</button></a>      
+      </div>
+      <div class="col-md-6 ">
+        <h4 class="text-center mt-5">My Intrest In</h4>
+              <div class="my_Interest p-2 mb-5">
+                <div class="Int_one p-3"><i class="fa-solid fa-utensils"></i><br>Food</div>
+                <div class="Int_one p-3"><i class="fa-solid fa-money-bill"></i><br>Money</div>
+                <div class="Int_one p-3"><i class="fa-solid fa-film"></i><br>Movies</div>
+                <div class="Int_one p-3"><i class="fa-solid fa-music"></i><br>Music</div>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- -------------About end----------------- -->
+
+ <!--=============== Education start=========== -->
+ <section id="Education">
+  <div class="container-fluid">
+    <div class="row education_banner mb-5 pb-5">
+      <div class="col-md-12 text-center  education_div">
+        <button onclick="myeducation()" id="check">My Education</button>
+        <button onclick="myexperience()" id="check2"> My Experience</button>
+      </div> 
+      <div class="container-fluid mt-5 mb-5" id="education_data">
+        <div class="row text-center mt-5">
+          <div class="col-md-3 mb-2 education_container">
+            <p class="text-center mt-3"><i class="fa-solid fa-graduation-cap"></i></p>
+            <h5 class="text-center"style="font-family: cursive;">Master of Computer Science</h5>
+                           <p class="text-center">BPHE Society Ahmednagar College Ahmednagar</p>
+                           <p class="text-center">Savitribai Phule Pune University 2020-2022</p>
+                           <p class="text-center"> 75.55%</p>
+
+          </div>
+          <div class="col-md-3  education_container">
+            <p class="text-center mt-3"><i class="fa-solid fa-graduation-cap"></i></p>
+                        <h5 class="text-center"style="font-family: cursive;">Bachelor of Computer Science</h5>
+                        <p class="text-center">BPHE Society Ahmednagar College Ahmednagar</p>
+                        <p class="text-center">Savitribai Phule Pune University 2018-19</p>
+                        <p class="text-center">62.63%</p>
+
+          </div>
+
+          <div class="col-md-3  education_container">
+            <p class="text-center mt-1"><i class="fa-solid fa-graduation-cap"></i></p>
+            <h5 class="text-center"style="font-family: cursive;">Higher Secondary School</h5>
+            <p class="text-center">Arts Science And Commerece College Rahuri </p>
+            <p class="text-center">Maharashtra State Board of Secondary and Higher Secondary Education 2014-15</p>
+            <p class="text-center">52.92%</p>
+
+
+          </div>
+
+          <div class="col-md-3  education_container">
+            <p class="text-center mt-1"><i class="fa-solid fa-graduation-cap"></i></p>
+            <h5 class="text-center"style="font-family: cursive;">Secondary School Certificate</h5>
+            <p class="text-center">Savitribai Phule Madhyamik Vidyalaya Rahuri </p>
+            <p class="text-center">Maharashtra State Board of Secondary and Higher Secondary Education 2012-13</p>
+            <p class="text-center">72.40%</p>
+          </div>
+
+        </div>
+      </div>
+
+    
+      <!-- experience -->
+      <div class="container" id="experience_data" hidden>
+        <div class="row mt-5">
+          <div class="col-md-6 mt-1  company_logo text-center">
+            <a href="http://a2zithub.org/"><img src="images/a2z_logo.webp"></a>
+            <p class="mt-3 p-2">A2Z Infotech Pvt. Ltd.<br>Ahmednagar Maharashtra</p>
+          </div>
+          <div class="col-md-6" id="internship_exp">
+            <h5>INTERNSHIP</h5>
+                <h4>Full stack Web Development 
+                   <h6> A2Z  Infotech  Ahmednagar</h6>
+                   </h4>
+<pre>
+• Using Markup Languages  HTML to create User-friendly
+  web pages.
+• Design Mobile base Features.
+• Built Corresponding front-end to manage and interact
+  with the platform.
+• Design Front-end Web Interfaces and Responsive Websites.
+• Collaborate with back-end developers and web Designer
+  to improve coding and troubleshooting.
+</pre>
+          </div>
+
+        </div>
+      </div>
+
+     </div>
+      </div>    
+  </div>
+  </div>
+ </section>
+ 
+ <!------------education end------------>
+
+ <!--============= my skills ==========-->
+ <section id="mySkills">
+  <h2 class="text-center">My Skills</h2>
+  <div class="container">
+    <div class="row mt-5 ">
+      <div class="col-md-3"></div>
+      <div class="col-md-7 skills_flex ">
+        <div class="col-md-2 text-center skills_conatiner">
+          <img src="images/html_logo.png">
+          <p>html</p></div>
+        <div class="col-md-2 text-center skills_conatiner">
+          <img src="images/css_logo.png">
+          <p>CSS</p></div>
+        <div class="col-md-2 text-center skills_conatiner">
+          <img src="images/bt_logo.png">
+          <p>Bootstrap</p></div>
+        <div class="col-md-2 text-center skills_conatiner">
+          <img src="images/js_logo.png">
+          <p>Javascript</p></div>
+        <div class="col-md-2 text-center skills_conatiner">
+          <img src="images/json_png.png">
+          <p>JSON</p></div>
+        <div class="col-md-2 text-center skills_conatiner">
+          <img src="images/node_logo.png">
+          <p>Node JS</p></div>
+        <div class="col-md-2 text-center skills_conatiner">
+          <img src="images/mysql_logo.png">
+          <p>SQL</p></div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  
+    </div>
+  </div>
+ </section>
+
+ <!-- -----------my skill end------------ -->
+
+ <!--========= my Portfolio start============ -->
+
+<section id="Portfolio">
+  <h2 class="text-center">My Portfolio</h2>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-5 text-center Portfolio_btn">
+        <button onclick="myproject()" id="project">projects</button>
+        <button onclick="mycertificate()" id="certificate">Certificates</button>
+        <button onclick="miniproject()" id="mini_project">Mini Projects</button>
+
+      </div>
+      </div>
+    </div>
+
+  
+      <!-- project -->
+      <div class="container Portfolio project_flex" id="project_flex">
+        <h3 class="text-center mt-5">PROJECT</h3>
+
+      <div class="row mt-5 mb-5">
+
+      <div class="col-lg-4 mb-3">
+        <div class="card text-center">
+          <video autoplay loop muted >
+            <source src="images/dento.mp4" type="video/mp4">
+          </video>  
+          <div class="card-body">
+            <div class="circle"></div>
+            <h4>Dentist Static Website</h4>
+          </div>
+          <p class="card-text">Dento is a free dental consideration site format, a close total answer for get your facility online as quick as could be allowed.</p>
+          <p><b>Technology:</b>HTML CSS Bootstrap</p>   
+            <p><a href="https://pragatibarse.github.io/dento.github.in/" class="card-link text-center ml-5">Preview</a>
+            <a href="https://github.com/pragatibarse/dento.github.in" class="card-link text-center">Code</a></p>     
+        </div>
+      </div>
+      
+      <div class="col-lg-4 mb-3" hidden>
+        <div class="card text-center">
+          <div class="card-body">
+            <div class="circle"></div>
+            <h4>Project</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit libero unde commodi quos, minima quibusdam error nostrum reiciendis in fugit, animi pariatur inventore nulla rem delectus dolor quam ratione.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-3" hidden>
+        <div class="card text-center">
+          <div class="card-body">
+            <div class="circle"></div>
+            <h4>Project</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit libero unde commodi quos, minima quibusdam error nostrum reiciendis in fugit, animi pariatur inventore nulla rem delectus dolor quam ratione.</p>
+        </div>
+      </div>
+      <!-- end project div -->
+      
+    </div>
+    </div>
+    <!-- certificate -->
+    <div class="container certificate_flex" id="certificate_flex"hidden>
+    <h3 class="text-center">CERTIFICATES</h3>
+    <div class="row mt-5 mb-5">
+      <div class="card" style="width: 20rem;">
+        <div class="card-body text-center">
+          <p><i class="fa-solid fa-certificate"></i></p>
+          <h5 class="card-title">Front End Development</h5>
+          <p class="card-text">Cascading Style Sheets</p>
+          <a href="images/css.pdf" class="btn btn-secondary">View</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 20rem;">
+        <div class="card-body text-center">
+          <p><i class="fa-solid fa-certificate"></i></p>
+          <h5 class="card-title">Front End Development</h5>
+          <p class="card-text">Hypertext Markup Language</p>
+          <a href="images/css.pdf" class="btn btn-secondary">View</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 24rem;">
+        <div class="card-body text-center">
+          <p><i class="fa-solid fa-certificate"></i></p>
+          <h5 class="card-title">Web Development Bootcamp</h5>
+          <p class="card-text">CSS and Javascript</p>
+          <a href="images/code_karo.pdf" class="btn btn-secondary">View</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    <!-- Mini Project -->
+    <div class="container mini_project_flex" id="mini_project_flex" hidden>
+    <h3 class="text-center mt-5">MINI PROJECTS</h3>
+    <div class="row mt-5 mb-5">
+      <div class="card min_proj mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="images/pass_validation.jpg" alt="img">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Password Validation</h5>
+              <p class="card-text">This is a Password Validation page using HTML CSS and Javascript.</p>
+              <a href="https://pragatibarse.github.io/JS_check_password/" class="card-link text-center ml-5">Preview</a>
+              <a href="https://github.com/pragatibarse/JS_check_password" class="card-link text-center">Code</a>         
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="images/Search.png" alt="img">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Product Searchbar</h5>
+              <p class="card-text">This is a Searchbar for product page using HTML  and Javascript.</p>
+              <a href="https://pragatibarse.github.io/Search-product/" class="card-link text-center ml-5">Preview</a>
+              <a href="https://github.com/pragatibarse/JS_check_password" class="card-link text-center">Code</a>         
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="images/multistep.png" alt="img">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Multistep From</h5>
+              <p class="card-text">This is a Multipstep form in single page using javascript</p>
+              <a href="https://pragatibarse.github.io/multipage-form/" class="card-link text-center ml-5">Preview</a>
+              <a href="https://github.com/pragatibarse/JS_check_password" class="card-link text-center">Code</a>         
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    </div>
+</section>
+
+ <!-- -----------my portfolio end------------ -->
+
+
+ <!--========= my contact start============ -->
+<section id="Contact">
+  <div class="container-fluid contact_banner">
+    <h2 class="text-center mb-5 ">Get In Touch</h2>
+    <div class="row ">
+      <div class="col-md-1 bg-dark"></div>
+      <div class="col-md-4 bg-dark">
+        <h3 class="text-center mb-4">About Me</h3>
+        <p class="text-white">Looking for an organization where I can enhance my knowledge and from my academic learning give my best to the organization.
+          <ul class="ml-5 text-white">
+            <li>Excellent communication skill.</li>
+            <li> Ability to grasp the new skills quickly.</li>
+            <li>Hard-working.</li>
+            <li> Excellent knowledge of Core subjects.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-md-3 bg-dark">
+        <h3 class="text-center  mb-4 ">Follow Me</h3>
+        <div class="follow_box_flex ml-5 text-center">
+        <div class="follow_box text-center">
+          <a href="https://www.linkedin.com/in/pragati-barse-046b05244"><img src="images/linked.png"></a>
+        </div>
+        <div class="follow_box text-center"><a href="https://instagram.com/pragatibarse?igshid=YmMyMTA2M2Y="><img src="images/insta.jpg"></a>
+        </div>
+        <div class="follow_box text-center"><a href="https://twitter.com/PragatiBarse"><img src="images/twiiter.png"></a></div>
+        <div class="follow_box text-center"><a href="https://github.com/pragatibarse"><img src="images/github.png"></a></div>
+      </div><br><br>
+      <p class=" text-white call_text"><i class="fa-solid fa-phone text-white"></i> pragatibarse08@gmail.com</p>
+      <p class=" text-white call_text"><i class="fa-solid fa-envelope text-white"></i> +918856963877</p>
+
+      </div>
+
+      <div class="col-md-4 text-center bg-dark">
+        <h3 class="text-center mb-5">Contact Me</h3>
+         <form id="contact_form">
+          <input type="text" name="name" value="" placeholder="Full Name"><br>
+          <input type="email" name="email" value="" placeholder="E-mail"><br>
+          <!-- <input type="text" name="message" value="" placeholder="Message.."><br> -->
+          <textarea placeholder="Message.."></textarea><br>
+          <button  class="text-center mb-5" type="submit">Send</button>
+         </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ <!-- -----------my Contact end------------ -->
+
+
+
+<script type="text/javascript" src="script.js"></script>
+
+
+
+
+<!-- 
+ <script>
+   function myeducation(){
+    var data=document.getElementById("check");
+    if(data){
+      document.getElementById('education_data').hidden=false;
+      document.getElementById('experience_data').hidden=true;
+    }
+     
+   }
+
+   function myexperience(){
+    var data=document.getElementById("check2");
+    if(data){
+      document.getElementById('education_data').hidden=true;
+      document.getElementById('experience_data').hidden=false;
+
+    }
+     
+   }
+ </script> -->
+        </body>
+        </html>

@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ============navbar========= */
+.navbar-brand img{
+    height: 60px;
+    width: 150px;
+}
+.nav-item{
+    margin-left: 30px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.conatiner_banner{
+    height: 730px;
+    background-image: linear-gradient(to right,#766dff,#88f3ff);
+}
+/* =============profile=============== */
+.profile_banner{
+    margin-top: -450px;
+    position: static;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 20px 80px 0px rgb(153 153 153 / 30%);
+
+}
+.profile_photo img{
+    width: 100%;
+    height: 70%;
+}
+.personal_text h6{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-weight: normal;
+}
+.personal_text h3 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #222222;
+}
+.personal_text h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #222222;
+}
+.personal_text p {
+    font-family: "Roboto", sans-serif;
+    max-width: 540px;
+    color: #777777;
+    margin-bottom: 40px;
+}
+.personal_text .basic_info li{
+    list-style-type: none;
+}
+.personal_text .basic_info li a {
+    position: relative;
+    padding-left: 40px;
+    font-size: 16px;
+    color: #777777;
+}
+.fa-calendar-days ,.fa-phone, .fa-envelope, .fa-address-book{
+    /* background-image: linear-gradient(to right,#766dff,#88f3ff); */
+ color:#766dff;
+ margin-left: -40px;
+ padding-right: 15px;
+ font-size: 15px!important;
+}
+.personal_social li {
+    color:#766dff;
+  list-style-type: none;
+  display:inline-block;
+  margin-left: 20px;
+  margin-top: 0px;
+  font-size: 20px;
+  border-radius: 0px 15px;
+  background-color:#E8E8E8;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+
+}
+.fa-brands{
+    margin: 15px 15px;
+    color: white;
+    
+}
+.personal_social li:hover{
+    background-image: linear-gradient(to right,#766dff,#88f3ff);
+}
+
+/* ==============about=================== */
+.about{
+    margin-top: 120px;
+}
+#about_me h3{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: unset;
+    margin-top: 50px;
+}
+#about_me p{
+    font-size: 16px;
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+}
+#about_me button{
+    height: 50px;
+    width: 130px;
+    border:none;
+    padding: 4px;
+    background-color:#E8E8E8;
+    border-radius: 7px;
+    margin-left: 165px;
+    margin-top: 30px;
+    
+}
+#about_me button:hover{
+    background-image: linear-gradient(to right,#766dff,#88f3ff);
+    color: white;
+}
+
+.my_Interest{
+    display: flex;
+}
+.Int_one{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #eeeeee;;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align:center;
+    transition-duration: 0.2s;
+
+}
+.Int_one:hover{
+    transform: scale(1.3);
+
+}
+.fa-solid{
+    font-size: 25px;
+    color: #766dff;
+}
+/* --------------education start--------------- */
+.education_banner{
+    margin-top: 120px;
+    background-image: linear-gradient(to right,#766dff,#88f3ff);
+}
+.education_div{
+    margin-top: 50px;
+}
+.education_div button{
+     height: 50px;
+     width: 150px;
+     opacity: 0.80;
+     color:black;
+     border:2px solid white;
+     font-weight: bolder;
+     font-size: medium;
+     margin: 20px;
+     outline: none;
+    }
+.education_div button:hover{
+ background-color: white;
+ color: black;
+}
+.fa-graduation-cap{
+    color: black;
+}
+ /* --------------experience--------- */
+ .company_logo img{
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+ }
+ /*----------myskills --------------   */
+ .myskill{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: unset;
+    margin-top: 50px;
+}
+#mySkills h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: unset;
+    margin-top: 50px;  
+}
+.skills_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills_conatiner{
+    height: 100px;
+    width: 100px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.skills_conatiner img{
+    height: 70%;
+    width: 100%;
+}
+/*-------- my portfolio--------- */
+#Portfolio h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: unset;
+    margin-top: 100px;  
+}
+.Portfolio_btn button{
+    height: 50px;
+    width: 120px;
+    opacity: 0.80;
+    color:black;
+    border-radius:10px;
+    font-weight: bolder;
+    font-size: medium;
+    margin: 10px;
+    outline: none;
+    border:none;
+    transition-duration: 0.80s;
+   }
+.Portfolio_btn button:hover{
+    background-image: linear-gradient(to right,#766dff,#88f3ff);
+    color: white;
+    transform: scale(1.1);
+}
+
+.card{
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+    /* outline: none;
+    border:none; */
+    margin: 10px;
+
+}
+.card p{
+    color: grey;
+}
+.circle video{
+    height: 250px;
+    width: 100%;
+    font-size: 30px;
+    display: inline-block;
+}
+.certificate_flex h3,.mini_project_flex h3,.project_flex h3{
+    font-weight: bolder;
+    color: #777777;
+    margin-top: 30px;
+}
+.certificate_flex h5{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 23px;   
+}
+.certificate_flex p{
+font-family: monospace;
+ margin: 12px;
+}
+
+.fa-certificate{
+    color:#ff9900
+}
+.mini_project_flex img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    transition-duration: 1s;
+}
+.mini_project_flex img:hover{
+transform: scale(1.1);
+}
+
+/*-------- contact-------- */
+.contact_banner h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: unset;
+    margin-top: 100px;     
+}
+.contact_banner h3{
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-top: 30px;
+    font-family: cursive;
+}
+#contact_form input,textarea{
+    height: 40px;
+    width: 250px;
+    margin: 10px;
+    border:none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid grey;
+}
+#contact_form button{
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    border-radius: 10px;
+    border:none;
+    font-size: 17px;
+    margin-top: 20px;
+}
+::placeholder{
+    color:white;
+    font-family: cursive;
+}
+.follow_box_flex{
+    display: flex;
+    align-items: center;
+    
+}
+.follow_box{
+    height: 50px;
+    width: 50px;
+    /* background-color: #E8E8E8; */
+    border-radius: 50%;
+    margin-top: 10px;
+    margin: 10px;
+    transition-duration: 1s;
+}
+.follow_box:hover{
+transform: scale(1.1);
+}
+.follow_box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.follow_box_flex i{
+    color: white;
+}
+.call_text{
+    margin-left: 130px;
+}
